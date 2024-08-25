@@ -38,15 +38,15 @@ Example: docker rmi <image_id>
 > A Dockerfile is a text document that contains a set of instructions to build a Docker image. It defines the base image, environment variables, dependencies, and commands to run during the build process.
 
 # Dockerfile Commands
-* ***FROM: Specifies the base image to use.
+* ***FROM:*** Specifies the base image to use.
 > Example: FROM ubuntu:latest
-* ***RUN: Executes commands in the image during the build process.
+* ***RUN:*** Executes commands in the image during the build process.
 > Example: RUN apt-get update && apt-get install -y nginx
-* ***COPY: Copies files from the host system to the image.
+* ***COPY:*** Copies files from the host system to the image.
 > Example: COPY . /app
-* ***CMD: Sets the default command to run when a container is created.
+* ***CMD:*** Sets the default command to run when a container is created.
 > Example: CMD ["nginx", "-g", "daemon off;"]
-* ***EXPOSE: Exposes ports for incoming connections.
+* ***EXPOSE:*** Exposes ports for incoming connections.
 > Example: EXPOSE 80
 
 # Docker Compose

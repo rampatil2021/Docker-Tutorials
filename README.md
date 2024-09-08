@@ -32,7 +32,6 @@ Example: docker rmi <image_id>
 * ***docker rm [container_id]:*** Removes a container.
 > Example: docker rm <container_id>
 * ***docker exec [container_id] [command]:*** Executes a command inside a running container.
-> Example: docker exec <container_id> ls
 
 # Dockerfile
 > A Dockerfile is a text document that contains a set of instructions to build a Docker image. It defines the base image, environment variables, dependencies, and commands to run during the build process.
